@@ -311,6 +311,12 @@ a:focus {
     font-size: 32px;
 }
 
+#s1 p {
+	font-family: 'Fjalla One', sans-serif;
+  font-size: 120%;
+  font-weight: bold;
+}
+
 #s2 b {
 	font-size: 120%;
 	color: #D6FFFA;
@@ -325,10 +331,21 @@ span.hot {
 	font-size: 120%;
 }
 
-#s4 h1 {
+h1 {
 	font-size: 500%;
 	font-weight: bold;
 	font-family: 'Fjalla One', sans-serif;
+}
+h2 {
+	font-size: 200%;
+	font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+span.tldr {
+  font-weight: bold;
+	font-family: 'Fjalla One', sans-serif;
+  margin: 0 1em;
 }
 
 /*
