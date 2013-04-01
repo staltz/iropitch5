@@ -353,6 +353,250 @@ span.tldr {
   margin: 0 1em;
 }
 
+#s10 p {
+	margin-top: -1em;
+}
+
+#s11 {
+	-webkit-transition: 0.5s;
+	-moz-transition:    0.5s;
+	-ms-transition:     0.5s;
+	-o-transition:      0.5s;
+	transition:         0.5s;
+}
+
+.service {
+	display: inline-block;
+	width: 38%;
+	margin-left: 5%;
+	margin-right: 5%;
+	border: 3px solid white;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	position: relative;
+	margin-top: 1em;
+	height: 7em;
+}
+h2.service-header {
+	font-size: 50px;
+	margin-top: 0.3em;
+}
+.service-text {
+	line-height: 1em;
+	font-size: 0.6em;
+}
+.service-footer {
+	position: absolute;
+	bottom: 0.5em;
+	left: 50%;
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 0 1px 5px black;
+}
+
+#consumer-service {
+	background: #FC7D21;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(253,170,110)), to(rgb(252,125,33)));
+	background: -webkit-radial-gradient(center, circle cover, rgb(253,170,110), rgb(252,125,33));
+	background:    -moz-radial-gradient(center, circle cover, rgb(253,170,110), rgb(252,125,33));
+	background:     -ms-radial-gradient(center, circle cover, rgb(253,170,110), rgb(252,125,33));
+	background:      -o-radial-gradient(center, circle cover, rgb(253,170,110), rgb(252,125,33));
+	background:         radial-gradient(center, circle cover, rgb(253,170,110), rgb(252,125,33));
+}
+#s11.present #consumer-service {
+	-webkit-transform: scale(1.2);
+	-moz-transform:    scale(1.2);
+	-ms-transform:     scale(1.2);
+	-o-transform:      scale(1.2);
+	transform:         scale(1.2);
+	
+	-webkit-transition: 0.5s;
+	-moz-transition:    0.5s;
+	-ms-transition:     0.5s;
+	-o-transition:      0.5s;
+	transition:         0.5s;
+
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay:    0.5s;
+	-ms-transition-delay:     0.5s;
+	-o-transition-delay:      0.5s;
+	transition-delay:         0.5s;
+}
+#consumer-service .service-text {
+	margin-top:2em;
+	-webkit-transform: rotate(-9deg);
+	-moz-transform: rotate(-9deg);
+	-ms-transform: rotate(-9deg);
+	-o-transform: rotate(-9deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.3);
+}
+#consumer-service .service-footer {
+	margin-left: -0.8em;
+}
+
+#business-service {
+	float: right;
+	background: #008EB3;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(0,173,218)), to(rgb(0,142,179)));
+	background: -webkit-radial-gradient(center, circle cover, rgb(0,173,218), rgb(0,142,179));
+	background:    -moz-radial-gradient(center, circle cover, rgb(0,173,218), rgb(0,142,179));
+	background:     -ms-radial-gradient(center, circle cover, rgb(0,173,218), rgb(0,142,179));
+	background:      -o-radial-gradient(center, circle cover, rgb(0,173,218), rgb(0,142,179));
+	background:         radial-gradient(center, circle cover, rgb(0,173,218), rgb(0,142,179));
+}
+#s11.present #business-service {
+	-webkit-transform: scale(1.2);
+	-moz-transform:    scale(1.2);
+	-ms-transform:     scale(1.2);
+	-o-transform:      scale(1.2);
+	transform:         scale(1.2);
+	
+	-webkit-transition: 0.5s;
+	-moz-transition:    0.5s;
+	-ms-transition:     0.5s;
+	-o-transition:      0.5s;
+	transition:         0.5s;
+
+	-webkit-transition-delay: 1s;
+	-moz-transition-delay:    1s;
+	-ms-transition-delay:     1s;
+	-o-transition-delay:      1s;
+	transition-delay:         1s;
+}
+#business-service .service-text {
+	margin-top:1.5em;
+	-webkit-transform: rotate(4deg);
+	-moz-transform: rotate(4deg);
+	-ms-transform: rotate(4deg);
+	-o-transform: rotate(4deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=-0.1);
+}
+#business-service .service-footer {
+	margin-left: -2.7em;
+}
+
+#xdiscourse {
+	width: 5em;
+	position: absolute;
+	left: 3.5em;
+	top: -2em;
+}
+#xgoogleplus {
+width: 1.5em;
+position: absolute;
+left: 1em;
+top: -2em;
+}
+#xbranch {
+position: absolute;
+left: 0em;
+top: 0.1em;
+background-color: white;
+}
+#xquora {
+position: absolute;
+top: 2em;
+left: 1em;
+}
+#xstackoverflow {
+width: 4em;
+position: absolute;
+top: 3.5em;
+left: 2em;
+}
+
+#xyammer {
+	background-color: white;
+	width: 25%;
+	position: absolute;
+	top: -1.5em;
+	right: 4em;
+}
+#xjostle {
+position: absolute;
+right: 2em;
+top: 3em;
+background-color: white;
+width: 3em;
+}
+#xhall {
+position: absolute;
+width: 2em;
+right: -0.5em;
+top: 3.3em;
+}
+#xchatter {
+position: absolute;
+top: 0em;
+right: -1.4em;
+background-color: white;
+}
+#xdapulse {
+position: absolute;
+right: 0em;
+top: 1.5em;
+}
+#xcompetitors {
+position: absolute;
+left: 50%;
+bottom: -6em;
+margin-left: -2.7em;
+}
+
+#s13.future {
+	visibility: hidden;
+}
+
+#visit-link { 
+	position: absolute;
+	top: -2.3em;
+}
+.person {
+	font-size: 0.5em;
+}
+.person a {
+	background: none;
+	color: #E3F083;
+	text-decoration: underline;
+	font-weight: bold;
+}
+#andre-photo {
+border-radius: 100px;
+width: 2em;
+position: absolute;
+right: 8em;
+top: -6em;
+}
+#andre-text {
+	position: absolute;
+	right: 0em;
+	top: -11em;
+}
+#hotloo-photo {
+	border-radius: 100px;
+	width: 2em;
+	position: absolute;
+	top: -3em;
+	right: 8em;
+}
+#hotloo-text {
+	position: absolute;
+	right: -0.8em;
+	top: -4.8em;	
+}
+#aleksi-photo {
+	border-radius: 100px;
+	width: 2em;
+	position: absolute;
+	top: 0em;
+	right: 8em;
+}
+#aleksi-text {
+	position: absolute;
+	right: 8.7em;
+	top: 1em;
+}
+
 /*
     Second step is nothing special, just a text with a link, so it doesn't need
     any special styling.
