@@ -322,6 +322,11 @@ a:focus {
 	color: #D6FFFA;
 }
 
+#s10 strong.orange {
+	color: #D6FFFA;
+	font-size: 200%;
+}
+
 span.hot {
 	background: -webkit-linear-gradient(rgb(255, 49, 31), rgb(255, 231, 52));
 	-webkit-background-clip: text;
