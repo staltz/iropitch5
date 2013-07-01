@@ -322,7 +322,7 @@ a:focus {
 	color: #D6FFFA;
 }
 
-#s10 strong.orange {
+#s13 strong.orange {
 	color: #D6FFFA;
 	font-size: 200%;
 }
@@ -353,11 +353,11 @@ span.tldr {
   margin: 0 1em;
 }
 
-#s10 p {
+#s13 p {
 	margin-top: -1em;
 }
 
-#s11 {
+#s14 {
 	-webkit-transition: 0.5s;
 	-moz-transition:    0.5s;
 	-ms-transition:     0.5s;
@@ -403,7 +403,7 @@ h2.service-header {
 	background:      -o-radial-gradient(center, circle cover, rgb(253,170,110), rgb(252,125,33));
 	background:         radial-gradient(center, circle cover, rgb(253,170,110), rgb(252,125,33));
 }
-#s11.present #consumer-service {
+#s14.present #consumer-service {
 	-webkit-transform: scale(1.2);
 	-moz-transform:    scale(1.2);
 	-ms-transform:     scale(1.2);
@@ -431,7 +431,7 @@ h2.service-header {
 	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.3);
 }
 #consumer-service .service-footer {
-	margin-left: -0.8em;
+	margin-left: -2.5em;
 }
 
 #business-service {
@@ -444,7 +444,7 @@ h2.service-header {
 	background:      -o-radial-gradient(center, circle cover, rgb(0,173,218), rgb(0,142,179));
 	background:         radial-gradient(center, circle cover, rgb(0,173,218), rgb(0,142,179));
 }
-#s11.present #business-service {
+#s14.present #business-service {
 	-webkit-transform: scale(1.2);
 	-moz-transform:    scale(1.2);
 	-ms-transform:     scale(1.2);
@@ -464,7 +464,7 @@ h2.service-header {
 	transition-delay:         1s;
 }
 #business-service .service-text {
-	margin-top:1.5em;
+	margin-top: 0.5em;
 	-webkit-transform: rotate(4deg);
 	-moz-transform: rotate(4deg);
 	-ms-transform: rotate(4deg);
@@ -478,31 +478,37 @@ h2.service-header {
 #xdiscourse {
 	width: 5em;
 	position: absolute;
-	left: 3.5em;
+	left: 4.5em;
 	top: -2em;
 }
 #xgoogleplus {
-width: 1.5em;
-position: absolute;
-left: 1em;
-top: -2em;
+	width: 1.5em;
+	position: absolute;
+	right: 6em;
+	top: -2em;
 }
 #xbranch {
-position: absolute;
-left: 0em;
-top: 0.1em;
-background-color: white;
+	position: absolute;
+	left: 4em;
+	top: 0.1em;
+	background-color: white;
+}
+#xfacebook {
+	position:absolute;
+	right: 4em;
+	top: 0em;
 }
 #xquora {
-position: absolute;
-top: 2em;
-left: 1em;
+	position: absolute;
+	top: 2.5em;
+	left: 6em;
 }
 #xstackoverflow {
-width: 4em;
-position: absolute;
-top: 3.5em;
-left: 2em;
+	width: 4em;
+	position: absolute;
+	top: 2.5em;
+	right: 5em;
+	background-color: white;
 }
 
 #xyammer {
@@ -543,13 +549,18 @@ bottom: -6em;
 margin-left: -2.7em;
 }
 
-#s13.future {
+#s16.future {
 	visibility: hidden;
 }
 
 #visit-link { 
 	position: absolute;
 	top: -2.3em;
+}
+.team-title {
+	position: absolute;
+	top: -1.4em;
+	left: 1em;
 }
 .person {
 	font-size: 0.5em;
@@ -561,40 +572,52 @@ margin-left: -2.7em;
 	font-weight: bold;
 }
 #andre-photo {
-border-radius: 100px;
-width: 2em;
-position: absolute;
-right: 8em;
-top: -6em;
-}
-#andre-text {
-	position: absolute;
-	right: 0em;
-	top: -11em;
-}
-#hotloo-photo {
 	border-radius: 100px;
 	width: 2em;
 	position: absolute;
-	top: -3em;
 	right: 8em;
+	top: -6em;
 }
-#hotloo-text {
+#andre-text {
 	position: absolute;
-	right: -0.8em;
-	top: -4.8em;	
+	right: 0.3em;
+	top: -11em;
 }
 #aleksi-photo {
 	border-radius: 100px;
 	width: 2em;
 	position: absolute;
-	top: 0em;
+	top: -3.5em;
 	right: 8em;
 }
 #aleksi-text {
 	position: absolute;
-	right: 8.7em;
-	top: 1em;
+	right: 4.5em;
+	top: -5.8em;	
+}
+#keyo-photo {
+	border-radius: 100px;
+	width: 2em;
+	position: absolute;
+	top: -1em;
+	right: 8em;
+}
+#keyo-text {
+	position: absolute;
+	right: 6em;
+	top: -1em;
+}
+#hotloo-photo {
+	border-radius: 100px;
+	width: 2em;
+	position: absolute;
+	top: 1.5em;
+	right: 8em;
+}
+#hotloo-text {
+	position: absolute;
+	right: -1em;
+	top: 4.1em;
 }
 
 /*
